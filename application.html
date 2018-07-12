@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Friendship Application</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <style>
+      body {
+          background-color: plum;
+      }
+      
+      h1 {
+          font-size: 55px;
+          color: #e64862;
+          background-color: #b1d435;
+          text-align: center;
+          text-shadow: 1px 1px white;
+          font-family: 'Luckiest Guy', cursive;
+          margin-top: 0px;
+          padding: 2px;
+      }
+      p {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 20px;
+        color: wheat;
+        text-shadow: 1px 1px black;
+        margin-bottom: -1px;
+        margin-top: 2px;
+      }
+      .submit {
+          text-align: center;
+      }
+  </style>
+  <body>
+      <div class="name">
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+        <h1>Mel's Friendship Application</h1>
+      </div>
+
+      <div class="container">
+          <div class="infoperson">
+              <p>
+                <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+                1. Enter your information:
+              </p>
+              <form>
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="e-mail">
+                        </div>
+                    </div>
+             </form>
+             <br>
+          </div>
+          <div class="questions">
+                <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+                <p>3. Tell me a little more about yourself.</p>
+          <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+            <br>
+            <p>
+                2. For a night out, which one of these would you prefer?
+              </p>
+              <select class="custom-select">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Going to a nightclub.</option>
+                    <option value="2">Going for drinks and dinner at a restaurant.</option>
+                    <option value="3">I prefer hanging out at home.</option>
+                  </select>
+            <br>
+            <br>
+            <p>3. Do you like "f.r.i.e.n.d.s"?</p>
+            <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Yes!
+                    </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    Not really.
+                </label>
+          </div>
+          <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    I haven't watched it.
+                </label>
+            </div>
+
+            <br>
+            <p>4. What's your favorite type of music?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Pop
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Hip-hop
+                </label>
+                </div>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Country
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Jazz
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Rock
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Classical Music
+                </label>
+            </div>
+            <br>
+        </div>
+        <div class="submit">
+            <form action="mailto:meli_cantu12@hotmail.com" method="post" enctype="text/plain">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+            <br>
+        </div>
+        
+            
+          
+      </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
